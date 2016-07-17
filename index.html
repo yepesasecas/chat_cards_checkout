@@ -24,95 +24,97 @@
           <h1>Chat + Cards + Checkout</h1>
         </div>
         <div class="chat-container box">
-          <div id="step0" class="card">
-            <h3>Order Details</h3>
-            <hr>
-            <table>
-              <tr>
-                <td>iPhone SE 64GB</td>
-                <td>$499</td>
-              </tr>
-              <tr>
-                <td>iPhone SE Case Gray</td>
-                <td>$23</td>
-              </tr>
-              <tr>
-                <td><b>Subtotal</b></td>
-                <td><b>$522</b></td>
-              </tr>
-            </table>
-          </div>
-          <a id="btn-step1" href="#" class="btn" >Continue</a>
-          <div id="step1" class="card">
-            <h3>Shipping Address</h3>
-            <hr>
-            <input type="text" name="email" value="" placeholder="email">
-            <input type="text" name="name" value="" placeholder="first name">
-            <input type="text" name="name" value="" placeholder="last name">
-            <input type="text" name="name" value="" placeholder="zip code">
-            <input type="text" name="name" value="" placeholder="phone number">
-            <input type="text" name="name" value="" placeholder="address">
-          </div>
-          <a id="btn-step2" href="#" class="btn" >Continue</a>
-          <div id="step2" class="card">
-            <h3>Billing Address</h3>
-            <hr>
-            <input id="Billing-address" type="checkbox" name="name" value="true"  checked>
-            <label for="Billing-address">Same as Shipping Address</label>
-          </div>
-          <a id="btn-step3" href="#" class="btn">Continue</a>
-          <div id="step3" class="card">
-            <h3>Shipping Method</h3>
-            <hr>
-            <form action="">
+          <div class="content">
+            <div id="step0" class="card">
+              <h3>Order Details</h3>
+              <hr>
               <table>
                 <tr>
-                  <td>
-                    <input type="radio" name="gender" value="male"> Economy <small>5 days</small><br>
-                  </td>
-                  <td>
-                    + $0
-                  </td>
+                  <td>iPhone SE 64GB</td>
+                  <td>$499</td>
                 </tr>
                 <tr>
-                  <td>
-                    <input type="radio" name="gender" value="female"> Express <small>2 days</small><br>
-                  </td>
-                  <td>
-                    + $100
-                  </td>
+                  <td>iPhone SE Case Gray</td>
+                  <td>$23</td>
+                </tr>
+                <tr>
+                  <td><b>Subtotal</b></td>
+                  <td><b>$522</b></td>
                 </tr>
               </table>
-            </form>
+            </div>
+            <a id="btn-step1" href="#" class="btn" >Continue</a>
+            <div id="step1" class="card">
+              <h3>Shipping Address</h3>
+              <hr>
+              <input type="text" name="email" value="" placeholder="email">
+              <input type="text" name="name" value="" placeholder="first name">
+              <input type="text" name="name" value="" placeholder="last name">
+              <input type="text" name="name" value="" placeholder="zip code">
+              <input type="text" name="name" value="" placeholder="phone number">
+              <input type="text" name="name" value="" placeholder="address">
+            </div>
+            <a id="btn-step2" href="#" class="btn" >Continue</a>
+            <div id="step2" class="card">
+              <h3>Billing Address</h3>
+              <hr>
+              <input id="Billing-address" type="checkbox" name="name" value="true"  checked>
+              <label for="Billing-address">Same as Shipping Address</label>
+            </div>
+            <a id="btn-step3" href="#" class="btn">Continue</a>
+            <div id="step3" class="card">
+              <h3>Shipping Method</h3>
+              <hr>
+              <form action="">
+                <table>
+                  <tr>
+                    <td>
+                      <input type="radio" name="gender" value="male"> Economy <small>5 days</small><br>
+                    </td>
+                    <td>
+                      + $0
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="radio" name="gender" value="female"> Express <small>2 days</small><br>
+                    </td>
+                    <td>
+                      + $100
+                    </td>
+                  </tr>
+                </table>
+              </form>
+            </div>
+            <a id="btn-step4" href="#" class="btn" >Continue</a>
+            <div id="step4" class="card">
+              <h3>Order Summary</h3>
+              <hr>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$522</td>
+                </tr>
+                <tr>
+                  <td>Shipping Method</td>
+                  <td>$100 <small>Economy</small></td>
+                </tr>
+                <tr>
+                  <td>Duty/Tax</td>
+                  <td>$50</td>
+                </tr>
+                <tr>
+                  <td>Insurance</td>
+                  <td>$121</td>
+                </tr>
+                <tr>
+                  <td><b>Total</b></td>
+                  <td><b>$822</b></td>
+                </tr>
+              </table>
+            </div>
+            <a id="btn-step5" href="#" class="btn" >Pay</a>
           </div>
-          <a id="btn-step4" href="#" class="btn" >Continue</a>
-          <div id="step4" class="card">
-            <h3>Order Summary</h3>
-            <hr>
-            <table>
-              <tr>
-                <td>Subtotal</td>
-                <td>$522</td>
-              </tr>
-              <tr>
-                <td>Shipping Method</td>
-                <td>$100 <small>Economy</small></td>
-              </tr>
-              <tr>
-                <td>Duty/Tax</td>
-                <td>$50</td>
-              </tr>
-              <tr>
-                <td>Insurance</td>
-                <td>$121</td>
-              </tr>
-              <tr>
-                <td><b>Total</b></td>
-                <td><b>$822</b></td>
-              </tr>
-            </table>
-          </div>
-          <a id="btn-step5" href="#" class="btn" >Pay</a>
         </div>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
